@@ -1,0 +1,23 @@
+# Notes
+1. send file- Scp testfile.txt root@<dest>:/<dir>
+2. tail
+3. wget
+4. ps aux | grep <app>- show all processes with <app>
+5. grep
+6. kill -9 <process id>-  kill process
+7. tar- uncompress files
+8. df- show files and its specifications like size etc.
+9. df -h - show files in human readable form
+10. touch- can be used to create file
+11. lsblk -f - show file devices block
+12. fstab- main boot
+13. visudo- edit to allow user to do anything with the machine. add user below the root
+          - root    ALL=(ALL)       ALL
+          - <user>  ALL=(ALL)       ALL
+14. chown- change user. example: <username>:<username> <file>
+15. chmod 777 <filename>- to allow editing of file
+                         - 777: rwxrwxrwx
+16. chmod +x <filename>- turn file into executable
+17. cat
+18. du -h - size of the folder in human readable form 
+yum install -y vim rsyslog nano net-snmp net-snmp-utils net-snmp-devel ntp sudo vixie-cron crontabs kvm qemu-kvm-tools qemu-kvm python-virtinst virt-manager virt-manager virt-viewer bridge-utils libvirt virt-install
